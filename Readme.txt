@@ -20,3 +20,12 @@ Ver log
 
 clonar repositório
 - git clone <url do repositório>
+
+fazer chackout em nova branch
+- git checkout -b <nome da branch>
+
+enviar codigo para o servidor "github"
+- git push
+
+buscar codigo do servidor "github"
+- git pull
