@@ -1,7 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
-# Versão 1.0.0
+# Versão 1.0.1
 
 # criar alguma coisa
 
@@ -32,6 +32,14 @@ def update_resource(resource_id):
 def patch_resource(resource_id):
     # code to patch a resource goes here
     return 'Resource {} patched'.format(resource_id)
+
+# Rota para deletar um cliente
+
+
+@app.route('/resources/<resource_id>', methods=['DELETE'])
+def delete_resource(resource_id):
+    # code to update a resource goes here
+    return 'Cliente deletado {} deleted'.format(resource_id)
 
 
 if __name__ == '__main__':
