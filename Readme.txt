@@ -14,3 +14,9 @@ Adicionar todos arquivo novos
 
 Fazer commit
 - git commit -m "Mensagem do commit"
+
+Ver log
+- git log
+
+clonar repositório
+- git clone <url do repositório>
