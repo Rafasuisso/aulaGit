@@ -20,3 +20,6 @@ Ver log
 
 clonar repositório
 - git clone <url do repositório>
+
+fazer chackout em nova branch
+- git checkout -b <nome da branch>
