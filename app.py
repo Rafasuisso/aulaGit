@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/resources', methods=['POST'])
 def create_resource():
     # code to create a new resource goes here
-    return 'cliente criado'
+    return 'arrombado criado'
 
 # pegar alguma coisa
 
